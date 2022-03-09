@@ -1,0 +1,197 @@
+/*Selector {
+    Property: value;
+}
+*/
+
+/*this is my first css site*/
+/*
+p{
+    color: pink !important;
+} */
+
+
+/*
+p{
+    color: orange !important;
+  text-align:  left;
+}
+ */
+
+  *{
+  text-align: center;
+}
+/*
+body{
+  background-image: url(../../../../splash_index.jpg);
+  background-size: cover;
+  font-size: 26px;
+} */
+/* p{
+  color: green;
+} */
+
+ p{
+  color: green !important;
+}
+
+h2:hover{
+  color:      rgba(245,163,173, .4);
+  text-align:  center;
+  border: 5px solid rgba(255, 75, 75, 0.5);
+  cursor:  wait;
+}
+/* h3:hover{
+  color: pink
+  text-align: right;
+  border: 5px solid green;
+} */
+
+/*
+p {
+  text-align: left;
+  color: green;
+
+} */
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+/*
+.border_diff:nth-child(2){
+  border: 5px solid orange;
+  text-align: center;
+ } */
+/*
+.border_diff:first-of-type{
+  border: 5px solid blue;
+  text-align: right;
+ } */
+
+
+
+.border_diff{
+  color: blue;
+  border: 5px solid pink;
+  text-align: center;
+}
+
+
+   .active {
+     color: red;
+     text-align: right;
+   }
+
+/*
+.webtext:first-child{
+  border: 5px dashed blue;
+}  */
+
+/*
+.webtext{
+  border: 5px dashed blue;
+} */
+
+
+
+
+#div0 {
+  background-color: rgba(0, 0, 255,.2);
+}
+
+#div1{
+  /* *background-color: blue; */
+  background-color: rgba(255, 0, 0,.2);
+}
+/*
+#div2{
+  *background-color: red;*
+  background-color: rgba(255, 0, 0, .2);
+
+}
+ */
+
+a:link{
+  color: blue;
+  text-decoration: none;
+}
+a:visited:hover{
+  color: aqua;
+  text-decoration: underline;
+}
+a:hover{
+  color: orange;
+  text-decoration: underline;
+}
+a:active{
+  color: red;
+}
+
+/*
+.synopsis {
+  color:  green;   * #7E8184;        * Light gray *
+  font-style: italic;
+}
+
+.synopsis em {
+  font-style: normal;
+}
+ */
+
+
+.button {
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+}
+
+
+.button:link,
+.button:visited {
+  display: block;
+  text-decoration: none;
+
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+}
+
+
+.button:hover,
+.button:visited:hover {
+  color: #FFF;
+  background-color: #76AEED;
+}
+.button:active,
+.button:visited:active {
+  color: #FFF;
+  background-color: #5995DA;
+}
+
+.call-to-action {
+  font-style: italic;
+  background-color: #EEB75A; *!important;*
+}
+.page {
+  width: 600px;
+  margin: 0 auto;
+}
+
+/*
+p{
+  color: #FF0000;
+} */
