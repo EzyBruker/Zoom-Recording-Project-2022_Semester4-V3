@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register</title>
+  </head>
+  <body>
+    <form action ='' method="GET">
+
+     FirstName: <input type="text" name="firstname"><br/>
+     MiddleNm: <input type"text" name="middlename"><br/>
+     LastName:  <input type="text" name="lastname"><br/>
+
+
+      Email  :   <input type="email" name="email" required><br/>
+
+
+      Password: <input type="password" name="password" minlength="5"><br/>
+
+      Birthday: <input type="date" name="birthday"><br/>
+
+     Gender:<br/>
+      <input type="radio" name="gender" value="Male">Male<br/>
+      <input type="radio" name="gender" value="Female">Female<br/>
+
+
+      Pets: <br/>
+      <input type="checkbox" name="cat">Cat<br/>
+      <input type="checkbox" name="dog">Dog<br/>
+
+
+      Cars: <br/>
+      <select name="cars">
+        <option value="volvo" name="volvo">Volvo</option><br/>
+        <option value="audi" name="audi">Audi</option><br/>
+        <option value="mazda" name="mazda">Mazda</option><br/>
+
+        <br/>
+      </select> <br/>
+
+      <label for='comment'>Comment</label>
+      <textarea id='comment' name='comment'></textarea><br/>
+
+      <input type="submit" value='Register'>
+
+      <input type="reset" value="Clear Form">
+
+    </form>
+  </body>
+</html>

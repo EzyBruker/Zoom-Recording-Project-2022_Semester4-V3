@@ -1,0 +1,97 @@
+h2{
+  color: pink
+}
+p{
+  color: green
+}
+
+p{
+  color: blue;
+}
+
+
+p{
+   text-decoration:    none;
+   width: 600px;
+ text-transform:   lowercase;
+ font-size: 1.75em;
+
+   line-height: 30px;
+ font-style:                oblique;
+  font-weight:               bolder;
+
+  /* font-family:  sans-serif; */
+  font-family: Georgia, "Times New Roman", sans-serif;
+
+}
+
+p{
+  font-family: 'Poiret One', cursive;
+}
+
+
+/*
+.button {
+  color: #FFF;
+  background-color: #5995DA;    * Blue *
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;    * Dark gray *
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+} */
+
+.button {
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+}
+
+.button:link,
+.button:visited {
+  display: block;
+  text-decoration: none;
+
+  color: #FFF;
+  background-color: #5995DA;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+}
+.button:hover,
+.button:visited:hover {
+  color: #FFF;
+  background-color: #76AEED;
+}
+.button:active,
+.button:visited:active {
+  color: #FFF;
+  background-color: #5995DA;
+}
+
+.call-to-action {
+  font-style: italic;
+  background-color: #EEB75A; /*!important;*/
+}
+.page {
+  width: 600px;
+  margin: 0 auto;
+}
+span{
+  font-size: 6em;
+}
