@@ -1,0 +1,15 @@
+.btn-danger{
+  background-color: gold;
+}
+.btn-danger:hover{
+background-color: brown;
+}
+
+h2{
+  background-color: gold;
+}
+
+.col{
+  background-color: pink;
+  border: 2px solid red;
+}
